@@ -1,0 +1,191 @@
+
+body {
+	font-family: helvetica;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+#header-wrapper {
+	width: 100%;
+	background-color: #4867AA;
+	height: 50px;
+}
+
+#header {
+	max-width: 900px;
+	height: 50px;
+	margin: auto;
+}
+
+#logo {
+	float: left;
+}
+
+#logo img {
+	width: 142px;
+}
+
+#right-header-wrapper {
+	float: right;
+	background-color: #5078ba;
+	margin-top: 12px;
+	width: 75%;
+}
+
+#search-bar{
+	float: left;
+	vertical-align: middle;
+	margin-top: 6px;
+	margin-left: 5px;
+}
+
+#search-bar input{
+	height: 26px;
+	width: 300px;
+	font-size: 14px;
+}
+
+#nav{
+	float: right;
+}
+
+#nav .nav-menu {
+	height: 38px;
+	float: right;
+}
+
+#nav .nav-menu li {
+	float: left;
+	color: white;
+	margin-right: 19px;
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+#sub-header-wrapper {
+	background-color: #ddd;
+	width: 100%;
+	display: inline-block;
+	height: 100px;
+}
+
+#sub-header {
+	width: 30%;
+	margin: auto;
+	padding-top: 40px;
+}
+
+
+#page-title {
+	font-size: 18px;
+}
+
+#like-button {
+	float: right;
+	box-shadow: 4px 3px 6px 0px #000;
+	border-radius: 5px;
+
+}
+
+
+#content {
+	max-width: 900px;
+	margin: -15px auto;
+}
+
+#left, #main, #right {
+	vertical-align: top;
+	display: inline-block;
+	box-sizing: border-box;
+}
+#left {
+	width: 30%;
+	padding-right: 30px;
+}
+
+#left img {
+	margin-top: 0px;
+}
+
+#main {
+ 	width: 50%;
+}
+
+#right {
+	width: 18%;
+	border-left: 2px solid #ddd;
+	padding: 5px;
+	margin-top: 40px;
+}
+
+#main-nav, #share {
+	margin-bottom: 20px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#main-nav {
+	box-shadow: 4px 3px 6px 0px #000;
+	width: 334px;
+}
+
+#main-nav ul li {
+	background-color: white;
+	float: left;
+	margin-right: 0px;
+	box-sizing: border-box;
+	padding: 11px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border: 1px solid black;
+}
+
+#share ul li {
+	float: left;
+	margin-right: 20px;
+	margin-top: 6px;
+}
+
+.post {
+	margin: 24px 0px;
+}
+
+.first-post {
+/* 	margin: 40px;
+ */}
+
+.avatar {
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+}
+
+.post-text {
+	font-size: 13px;
+	display: inline-block;
+	width: 75%;
+	vertical-align: top;
+}
+
+#right img {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
