@@ -175,6 +175,52 @@ img {
 	margin-bottom: 10px;
 }
 
+@media screen and (max-width: 440px) {
+	#left, #main, #right {
+		width: 90%;
+		margin: auto;
+		margin-left: 10px;
+	}
+
+	#facebook-wrapper {
+		width: 100%;
+	}
+
+	#left img {
+		margin: 40px 0px 40px 25px;
+	}
+
+	#page-title {
+		margin-left: -130px;
+		font-size: 14px;
+	}
+
+	#right-header-wrapper {
+		float: none;
+		background-color: #5078ba;
+		width: 75%;
+	}
+
+	#sub-header-wrapper, #sub-header, #header, #main-nav {
+		max-width: 100%;
+	}
+
+	#main-nav {
+		width: 390px;
+		margin: auto;
+		padding: 2px 2px 2px 2px;
+		font-size: 10px;
+	}
+
+	#search-bar {
+		background-color: #5078ba;
+	}
+}
+
+
+
+
+
 
 
 
